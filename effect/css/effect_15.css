@@ -1,0 +1,166 @@
+.effect-15 {
+	background: #FFFFFF;
+}
+.effect-15 a{
+	margin-right: 5px;
+}
+/* Icon */
+.effect-15 .fb:before{
+	content: "\f09a";
+}
+.effect-15 .fb:after {
+	background-color: #3b5998;
+}
+.effect-15 .fb:hover {
+    box-shadow: 0 0 0 7px rgba(58, 136, 171, 0.25);
+}
+
+/* Github */
+.effect-15 .dribbble:before {
+	content: "\f17d";
+}
+.effect-15 .dribbble:after {
+	background-color: #F26798;
+}
+.effect-15 .dribbble:hover {
+    box-shadow: 0 0 0 7px rgba(242, 103, 152, 0.25);
+}
+
+/* SU */
+.effect-15 .su:before {
+	content: "\f1a4";
+}
+.effect-15 .su:after {
+	background-color: #5FBB4C;
+}
+.effect-15 .su:hover {
+    box-shadow: 0 0 0 7px rgba(95, 187, 76, 0.25);
+}
+
+/* Gplus */
+.effect-15 .gplus:before {
+	content: "\f0d5";
+}
+.effect-15 .gplus:after {
+	background-color: #d34836;
+}
+.effect-15 .gplus:hover {
+    box-shadow: 0 0 0 7px rgba(211, 72, 54, 0.25);
+}
+
+/* Instagram */
+.effect-15 .instagram:before {
+	content: "\f16d";
+}
+.effect-15 .instagram:after {
+	background-color: #DCAD65;
+}
+.effect-15 .instagram:hover {
+    box-shadow: 0 0 0 7px rgba(220, 173, 101, 0.25);
+}
+
+/* Twitter */
+.effect-15 .twitter:before {
+	content: "\f099";
+}
+.effect-15 .twitter:after {
+	background-color: #4099ff;
+}
+.effect-15 .twitter:hover {
+    box-shadow: 0 0 0 7px rgba(64, 153, 255, 0.25);
+}
+
+/* RSS */
+.effect-15 .rss:before {
+	content: "\f09e";
+}
+.effect-15 .rss:after {
+	background-color: #FF9F5B;
+}
+.effect-15 .rss:hover {
+    box-shadow: 0 0 0 7px rgba(255, 159, 91, 0.25);
+}
+
+
+/* Digg */
+.effect-15 .digg:before {
+	content: "\f1a6";
+}
+.effect-15 .digg:after {
+	background-color: #79BAFF;
+}
+.effect-15 .digg:hover {
+    box-shadow: 0 0 0 7px rgba(121, 186, 255, 0.25);
+}
+
+/* Youtube */
+.effect-15 .youtube:before {
+	content: "\f167";
+}
+.effect-15 .youtube:after {
+	background-color: #CF2200;
+}
+.effect-15 .youtube:hover {
+    box-shadow: 0 0 0 7px rgba(207, 34, 0, 0.25);
+}
+
+/* Vimeo */
+.effect-15 .vimeo:before {
+	content: "\f27d";
+}
+.effect-15 .vimeo:after {
+	background-color: #85C6FD;
+}
+.effect-15 .vimeo:hover {
+    box-shadow: 0 0 0 7px rgba(133, 198, 253, 0.25);
+}
+
+/* Delicious */
+.effect-15 .delicious:before {
+	content: "\f1a5";
+}
+.effect-15 .delicious:after {
+	background-color: #3F92DC;
+}
+.effect-15 .delicious:hover {
+    box-shadow: 0 0 0 7px rgba(63, 146, 220, 0.25);
+}
+
+/* Linkedin */
+.effect-15 .linkedin:before {
+	content: "\f0e1";
+}
+.effect-15 .linkedin:after {
+	background-color: #4698BD;
+}
+.effect-15 .linkedin:hover {
+    box-shadow: 0 0 0 7px rgba(70, 152, 189, 0.25);
+}
+
+/* EFFECT */
+.effect-15 a {
+	background-color: #EAEAEA;
+	border-radius: 32px;
+	font-size: 35px;
+	line-height: 65px;
+	z-index: 1;
+}
+.effect-15 a:hover:before{
+	color: #FFFFFF;
+}
+.effect-15 a:after {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	content: '';
+	width: 0;
+    height: 0;
+    z-index: -1;
+	border-radius: 32px;
+}
+.effect-15 a:hover:after{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}

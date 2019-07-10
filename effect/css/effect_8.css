@@ -1,0 +1,103 @@
+/* Icon */
+.effect-8 .fb:before {
+	content: "\f09a";
+}
+
+/* Dribble */
+.effect-8 .dribbble:before {
+	content: "\f17d";
+}
+
+/* SU */
+.effect-8 .su:before {
+	content: "\f1a4";
+}
+
+/* Gplus */
+.effect-8 .gplus:before {
+	content: "\f0d5";
+}
+
+/* Instagram */
+.effect-8 .instagram:before {
+	content: "\f16d";
+}
+
+/* Twitter */
+.effect-8 .twitter:before {
+	content: "\f099";
+}
+
+/* RSS */
+.effect-8 .rss:before {
+	content: "\f09e";
+}
+
+/* Digg */
+.effect-8 .digg:before {
+	content: "\f1a6";
+}
+
+/* Youtube */
+.effect-8 .youtube:before {
+	content: "\f167";
+}
+
+/* Vimeo */
+.effect-8 .vimeo:before {
+	content: "\f27d";
+}
+
+/* Delicious */
+.effect-8 .delicious:before {
+	content: "\f1a5";
+}
+
+/* Linkedin */
+.effect-8 .linkedin:before {
+	content: "\f0e1";
+}
+
+/* EFFECT */
+/* Multi Color */
+.effect-8-2 .fb:hover {
+	color: #84AAFB;
+}
+.effect-8-2 a.dribbble:hover{
+	color: #FF8CB4;
+}
+.effect-8-2 .su:hover {
+	color: #76C765;
+}
+.effect-8-2 .gplus:hover {
+	color: #FF8C7E;
+}
+.effect-8-2 .instagram:hover {
+	color: #F3C174;
+}
+.effect-8-2 .twitter:hover {
+	color: #79BAFF;
+}
+.effect-8-2 .rss:hover {
+	color: #FFA96C;
+}
+.effect-8-2 .digg:hover {
+	color: #79BAFF;
+}
+.effect-8-2 .youtube:hover {
+	color: #FF9386;
+}
+.effect-8-2 .vimeo:hover {
+	color: #85C6FD;
+}
+.effect-8-2 .delicious:hover {
+	color: #81E857;
+}
+.effect-8-2 .linkedin:hover {
+	color: #81D6FF;
+}
+
+/* Mono Color */
+.effect-8-1 a:hover:before {
+	color: #79DAFF;
+}

@@ -1,0 +1,156 @@
+.effect-9 a {
+	background-color: #EAEAEA;
+	border-bottom: 5px solid #949494;
+    z-index: 1;
+	height: 69px;
+}
+
+.effect-9 a:after {
+	content : '';
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+    z-index: -1;
+}
+
+/* Icon */
+.effect-9 .fb:before {
+	content: "\f09a";
+}
+.effect-9 .fb:hover {
+	border-color: #1F3F84;
+}
+.effect-9 .fb:after {
+	background-color: #3b5998;
+}
+
+/* Github */
+.effect-9 .dribbble:before{
+	content: "\f17d";
+}
+.effect-9 .dribbble:hover {
+	border-color: #C32D62;
+}
+.effect-9 .dribbble:after {
+	background-color: #F26798;
+}
+
+/* SU */
+.effect-9 .su:before {
+	content: "\f1a4";
+}
+.effect-9 .su:hover {
+	border-color: #2D7D1C;
+}
+.effect-9 .su:after {
+	background-color: #5FBB4C;
+}
+
+/* Gplus */
+.effect-9 .gplus:before {
+	content: "\f0d5";
+}
+.effect-9 .gplus:hover {
+	border-color: #A72E1E;
+}
+.effect-9 .gplus:after {
+	background-color: #d34836;
+}
+
+/* Instagram */
+.effect-9 .instagram:before {
+	content: "\f16d";
+}
+.effect-9 .instagram:hover {
+	border-color: #A77A36;
+}
+.effect-9 .instagram:after {
+	background-color: #DCAD65;
+}
+
+/* Twitter */
+.effect-9 .twitter:before {
+	content: "\f099";
+}
+.effect-9 .twitter:hover {
+	border-color: #256AB9;
+}
+.effect-9 .twitter:after {
+	background-color: #4099ff;
+}
+
+/* RSS */
+.effect-9 .rss:before {
+	content: "\f09e";
+}
+.effect-9 .rss:hover {
+	border-color: #BF713A;
+}
+.effect-9 .rss:after {
+	background-color: #FF9F5B;
+}
+
+/* Digg */
+.effect-9 .digg:before {
+	content: "\f1a6";
+}
+.effect-9 .digg:hover {
+	border-color: #4986C7;
+}
+.effect-9 .digg:after {
+	background-color: #79BAFF;
+}
+
+/* Youtube */
+.effect-9 .youtube:before {
+	content: "\f167";
+}
+.effect-9 .youtube:hover {
+	border-color: #881600;
+}
+.effect-9 .youtube:after {
+	background-color: #CF2200;
+}
+
+/* Vimeo */
+.effect-9 .vimeo:before {
+	content: "\f27d";
+}
+.effect-9 .vimeo:hover {
+	border-color: #427CAD;
+}
+.effect-9 .vimeo:after {
+	background-color: #85C6FD;
+}
+
+/* Delicious */
+.effect-9 .delicious:before {
+	content: "\f1a5";
+}
+.effect-9 .delicious:hover {
+	border-color: #2E70AB;
+}
+.effect-9 .delicious:after {
+	background-color: #3F92DC;
+}
+
+/* Linkedin */
+.effect-9 .linkedin:before {
+	content: "\f0e1";
+}
+.effect-9 .linkedin:hover {
+	border-color: #2D637B;
+}
+.effect-9 .linkedin:after {
+	background-color: #4698BD;
+}
+
+/* EFFECT */
+.effect-9 a:hover:before{
+	color: #FFFFFF;
+}
+.effect-9 a:hover:after{
+	top: 0;
+}

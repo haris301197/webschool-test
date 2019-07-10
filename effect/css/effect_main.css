@@ -1,0 +1,113 @@
+body {
+	border: 0;
+	margin: 0;
+	padding:0;
+	font-family: segoe ui, verdana;
+}
+
+/* Global effect style */
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?w6aef1');
+	src:url('fonts/icomoon.eot?w6aef1#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?w6aef1') format('truetype'),
+		url('fonts/icomoon.woff?w6aef1') format('woff'),
+		url('fonts/icomoon.svg?w6aef1#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+section{
+	padding: 35px 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.effect-wrapper {
+	text-align: center;
+	background: #848484;
+}
+.effect-wrapper a {
+	font-family: icomoon;
+	font-size: 40px;
+	speak: none;
+	line-height: 65px;
+	position: relative;
+	display: inline-block;
+	width: 64px;
+    height: 64px;
+	overflow:hidden;
+	text-decoration: none;
+	color: #5D5D5D;
+}
+
+.effect-wrapper a,
+.effect-wrapper a:before,
+.effect-wrapper a:after
+{
+	transition: all 0.3s;
+}
+
+.effect-all div{
+	display: inline-block;
+	margin-right: 10px;
+}
+.effect-all label{
+	display:block;
+	margin-top: 5px;
+}
+
+.effect-1 {
+	background-color: #FFFFFF;
+}
+.effect-2 {
+	background-color: #FFFFFF;
+}
+.effect-3 {
+	background-color: #FFFFFF;
+}
+.effect-4 {
+	background-color: #FFFFFF;
+}
+.effect-5 {
+	background-color: #FFFFFF;
+}
+.effect-6 {
+	background-color: #FFFFFF;
+}
+.effect-7 {
+	background-color: #FFFFFF;
+}
+.effect-8 {
+	background-color: #383838;
+}
+.effect-9 {
+	background-color: #FFFFFF;
+}
+.effect-10 {
+	background-color: #FFFFFF;
+}
+.effect-11 {
+	background-color: #FFFFFF;
+}
+.effect-12 {
+	background-color: #FFFFFF;
+}
+.effect-13 {
+	background-color: #383838;
+}
+.effect-14 {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #CCCCCC;
+}
+.effect-15 {
+	background-color: #FFFFFF;
+}
+
+.effect-14 h2,
+.effect-14 h3,
+.effect-15 h2,
+.effect-15 h3 {
+	color: #6b6b6b;
+}

@@ -1,0 +1,107 @@
+.effect-13 a:after{
+	-webkit-transform: rotate(15deg) scale(1.5);
+	    -ms-transform: rotate(15deg) scale(1.5);
+	        transform: rotate(15deg) scale(1.5);
+    color: #ECFF82;
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+/* Icon */
+.effect-13 .fb:before,
+.effect-13 .fb:after {
+	content: "\f09a";
+}
+
+/* Dribble */
+.effect-13 .dribbble:before,
+.effect-13 .dribbble:after {
+	content: "\f17d";
+}
+
+/* SU */
+.effect-13 .su:before,
+.effect-13 .su:after {
+	content: "\f1a4";
+}
+
+/* Gplus */
+.effect-13 .gplus:before,
+.effect-13 .gplus:after {
+	content: "\f0d5";
+}
+
+/* Instagram */
+.effect-13 .instagram:before,
+.effect-13 .instagram:after {
+	content: "\f16d";
+}
+
+/* Twitter */
+.effect-13 .twitter:before,
+.effect-13 .twitter:after {
+	content: "\f099";
+}
+
+/* RSS */
+.effect-13 .rss:before,
+.effect-13 .rss:after {
+	content: "\f09e";
+}
+
+/* Digg */
+.effect-13 .digg:before,
+.effect-13 .digg:after {
+	content: "\f1a6";
+}
+
+/* Youtube */
+.effect-13 .youtube:before,
+.effect-13 .youtube:after {
+	content: "\f167";
+}
+
+/* Vimeo */
+.effect-13 .vimeo:before,
+.effect-13 .vimeo:after {
+	content: "\f27d";
+}
+
+/* Delicious */
+.effect-13 .delicious:before,
+.effect-13 .delicious:after {
+	content: "\f1a5";
+}
+
+/* Linkedin */
+.effect-13 .linkedin:before,
+.effect-13 .linkedin:after {
+	content: "\f0e1";
+}
+
+/* EFFECT */
+.effect-13 a:hover:after {
+	-webkit-transform: rotate(0) scale(1.0);
+	    -ms-transform: rotate(0) scale(1.0);
+	        transform: rotate(0) scale(1.0);
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.effect-13-1 a:after{
+	-webkit-transform: translateY(-7px) translateX(15px) rotate(5deg) scale(1.2);
+	    -ms-transform: translateY(-7px) translateX(15px) rotate(5deg) scale(1.2);
+	        transform: translateY(-7px) translateX(15px) rotate(5deg) scale(1.2);
+    color: #84FF82;
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}

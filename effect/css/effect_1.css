@@ -1,0 +1,134 @@
+.effect-1 a {
+	background-color: #EAEAEA;
+}
+.effect-1 a:before,
+.effect-1 a:after {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	left: 0;
+}
+.effect-1 a:before {
+	top: 0;
+}
+/* Icon */
+.effect-1 .fb:before,
+.effect-1 .fb:after {
+	content: "\f09a";
+}
+
+.effect-1 .fb:hover {
+	background-color: #3b5998;
+}
+
+/* Github */
+.effect-1 .dribbble:before,
+.effect-1 .dribbble:after {
+	content: "\f17d";
+}
+.effect-1 .dribbble:hover {
+	background-color: #F26798;
+}
+
+/* SU */
+.effect-1 .su:before,
+.effect-1 .su:after {
+	content: "\f1a4";
+}
+.effect-1 .su:hover {
+	background-color: #5FBB4C;
+}
+
+/* Gplus */
+.effect-1 .gplus:before,
+.effect-1 .gplus:after {
+	content: "\f0d5";
+}
+.effect-1 .gplus:hover {
+	background-color: #d34836;
+}
+
+/* Instagram */
+.effect-1 .instagram:before,
+.effect-1 .instagram:after {
+	content: "\f16d";
+}
+.effect-1 .instagram:hover {
+	background-color: #DCAD65;
+}
+
+/* Twitter */
+.effect-1 .twitter:before,
+.effect-1 .twitter:after {
+	content: "\f099";
+}
+.effect-1 .twitter:hover {
+	background-color: #4099ff;
+}
+
+/* RSS */
+.effect-1 .rss:before,
+.effect-1 .rss:after {
+	content: "\f09e";
+}
+.effect-1 .rss:hover {
+	background-color: #FF9F5B;
+}
+
+/* Digg */
+.effect-1 .digg:before,
+.effect-1 .digg:after {
+	content: "\f1a6";
+}
+.effect-1 .digg:hover {
+	background-color: #79BAFF;
+}
+
+/* Youtube */
+.effect-1 .youtube:before,
+.effect-1 .youtube:after {
+	content: "\f167";
+}
+.effect-1 .youtube:hover {
+	background-color: #CF2200;
+}
+
+/* Vimeo */
+.effect-1 .vimeo:before,
+.effect-1 .vimeo:after {
+	content: "\f27d";
+}
+.effect-1 .vimeo:hover {
+	background-color: #85C6FD;
+}
+
+/* Delicious */
+.effect-1 .delicious:before,
+.effect-1 .delicious:after {
+	content: "\f1a5";
+}
+.effect-1 .delicious:hover {
+	background-color: #3F92DC;
+}
+
+/* Linkedin */
+.effect-1 .linkedin:before,
+.effect-1 .linkedin:after {
+	content: "\f0e1";
+}
+.effect-1 .linkedin:hover {
+	background-color: #4698BD;
+}
+
+/* EFFECT */
+/* UP */
+.effect-1-1 a:after{
+	top: 100%;
+	color: #FFFFFF;
+}
+.effect-1-1 a:hover:before {
+	top: -100%;
+}
+.effect-1-1 a:hover:after {
+	top: 0;
+}

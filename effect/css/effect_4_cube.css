@@ -1,0 +1,212 @@
+/**
+	TRUECUBE
+*/
+.cube a {
+	-webkit-perspective: 700px;
+	        perspective: 700px;
+	-webkit-transform-style: preserve-3d;
+	
+	overflow: visible !important;
+}
+.cube a:before,
+.cube a:after {
+    position: absolute;
+	width: 64px;
+    height: 64px;
+    left: 0;
+	top: 0;
+	-webkit-transform-origin: 50% 50% -32px;
+	    -ms-transform-origin: 50% 50% -32px;
+	        transform-origin: 50% 50% -32px;
+	-webkit-transition: all 0.3s ease-out;
+	        transition: all 0.3s ease-out;
+}
+.cube a:before {
+	z-index: 1;
+	background-color: #EAEAEA;
+}
+.cube a:after {
+	color: #FFFFFF;
+}
+
+/*  
+===========================================
+	POSITION 
+===========================================
+*/
+.effect-4-2 a:after {
+	-webkit-transform: rotateX(-90deg);
+	        transform: rotateX(-90deg);
+}
+.effect-4-3 a:after {
+    -webkit-transform: rotateY(-90deg);
+            transform: rotateY(-90deg);
+}
+.effect-4-4 a:after {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+}
+.effect-4-5 a:after {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+}
+
+
+/*  
+===========================================
+	EFFECT
+===========================================
+*/
+.cube a:hover:after {
+	z-index: 2;
+}
+
+.effect-4-2 a:hover:before {
+	-webkit-transform: rotateX(90deg);
+	        transform: rotateX(90deg);
+}
+.effect-4-2 a:hover:after {
+	-webkit-transform: rotateX(0);
+	        transform: rotateX(0);
+}
+
+.effect-4-3 a:hover:before {
+	-webkit-transform: rotateY(90deg);
+	        transform: rotateY(90deg);
+}
+.effect-4-3 a:hover:after {
+	-webkit-transform: rotateY(0);
+	        transform: rotateY(0);
+}
+
+.effect-4-4 a:hover:before {
+	-webkit-transform: rotateX(-90deg);
+	        transform: rotateX(-90deg);
+}
+.effect-4-4 a:hover:after {
+	-webkit-transform: rotateX(0);
+	        transform: rotateX(0);
+}
+
+.effect-4-5 a:hover:before {
+	-webkit-transform: rotateY(-90deg);
+	        transform: rotateY(-90deg);
+}
+.effect-4-5 a:hover:after {
+	-webkit-transform: rotateY(0);
+	        transform: rotateY(0);
+}
+
+/*  
+===========================================
+	ICON 
+===========================================
+*/
+
+/* Facebook */
+.cube .fb:before,
+.cube .fb:after {
+	content: "\f09a";
+}
+.cube .fb:after {
+	background-color: #3b5998;
+}
+
+/* Github */
+.cube .dribbble:before,
+.cube .dribbble:after {
+	content: "\f17d";
+}
+.cube .dribbble:after {
+	background-color: #F26798;
+}
+
+/* SU */
+.cube .su:before,
+.cube .su:after {
+	content: "\f1a4";
+}
+.cube .su:after {
+	background-color: #5FBB4C;
+}
+
+/* Gplus */
+.cube .gplus:before,
+.cube .gplus:after {
+	content: "\f0d5";
+}
+.cube .gplus:after {
+	background-color: #d34836;
+}
+
+/* Instagram */
+.cube .instagram:before,
+.cube .instagram:after {
+	content: "\f16d";
+}
+.cube .instagram:after {
+	background-color: #DCAD65;
+}
+
+/* Twitter */
+.cube .twitter:before,
+.cube .twitter:after {
+	content: "\f099";
+}
+.cube .twitter:after {
+	background-color: #4099ff;
+}
+
+/* RSS */
+.cube .rss:before,
+.cube .rss:after {
+	content: "\f09e";
+}
+.cube .rss:after {
+	background-color: #FF9F5B;
+}
+
+/* Digg */
+.cube .digg:before,
+.cube .digg:after {
+	content: "\f1a6";
+}
+.cube .digg:after {
+	background-color: #79BAFF;
+}
+
+/* Youtube */
+.cube .youtube:before,
+.cube .youtube:after {
+	content: "\f167";
+}
+.cube .youtube:after {
+	background-color: #CF2200;
+}
+
+/* Vimeo */
+.cube .vimeo:before,
+.cube .vimeo:after {
+	content: "\f27d";
+}
+.cube .vimeo:after {
+	background-color: #85C6FD;
+}
+
+/* Delicious */
+.cube .delicious:before,
+.cube .delicious:after {
+	content: "\f1a5";
+}
+.cube .delicious:after {
+	background-color: #3F92DC;
+}
+
+/* Linkedin */
+.cube .linkedin:before,
+.cube .linkedin:after {
+	content: "\f0e1";
+}
+.cube .linkedin:after {
+	background-color: #4698BD;
+}

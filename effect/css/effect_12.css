@@ -1,0 +1,161 @@
+.effect-12 a {
+	-webkit-perspective: 800px;
+	        perspective: 800px;
+	overflow: visible !important;
+}
+
+.effect-12 a span{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #EAEAEA;
+	-webkit-transform-origin: 0 50%;
+	    -ms-transform-origin: 0 50%;
+	        transform-origin: 0 50%;
+	-webkit-transform-style: preserve-3d;
+	        transform-style: preserve-3d;
+	box-shadow: inset 0 5px #AAAAAA;
+	background-color: #EAEAEA;
+}
+
+.effect-12 a span:after {
+	color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transform: rotateX(270deg);
+	        transform: rotateX(270deg);
+	-webkit-transform-origin: 0 0;
+	    -ms-transform-origin: 0 0;
+	        transform-origin: 0 0;
+	-webkit-transition: -webkit-transform 0.6s;
+	        transition: transform 0.6s;
+}
+/* Icon */
+.effect-12 .fb span:after,
+.effect-12 .fb span:before {
+	content: "\f09a";
+}
+.effect-12 .fb span:after {
+	box-shadow: inset 0 5px #1F3F84;
+	background-color: #3b5998;
+}
+
+/* Github */
+.effect-12 .dribbble span:before,
+.effect-12 .dribbble span:after {
+	content: "\f17d";
+}
+.effect-12 .dribbble span:after {
+	box-shadow: inset 0 5px #C32D62;
+	background-color: #F26798;
+}
+
+/* SU */
+.effect-12 .su span:before,
+.effect-12 .su span:after {
+	content: "\f1a4";
+}
+.effect-12 .su span:after {
+	box-shadow: inset 0 5px #2D7D1C;
+	background-color: #5FBB4C;
+}
+
+/* Gplus */
+.effect-12 .gplus span:before,
+.effect-12 .gplus span:after {
+	content: "\f0d5";
+}
+.effect-12 .gplus span:after {
+	box-shadow: inset 0 5px #A72E1E;
+	background-color: #d34836;
+}
+
+/* Instagram */
+.effect-12 .instagram span:before,
+.effect-12 .instagram span:after {
+	content: "\f16d";
+}
+.effect-12 .instagram span:after {
+	box-shadow: inset 0 5px #A77A36;
+	background-color: #DCAD65;
+}
+
+/* Twitter */
+.effect-12 .twitter span:before,
+.effect-12 .twitter span:after {
+	content: "\f099";
+}
+.effect-12 .twitter span:after {
+	box-shadow: inset 0 5px #256AB9;
+	background-color: #4099ff;
+}
+
+/* RSS */
+.effect-12 .rss span:before,
+.effect-12 .rss span:after {
+	content: "\f09e";
+}
+.effect-12 .rss span:after {
+	box-shadow: inset 0 5px #BF713A;
+	background-color: #FF9F5B;
+}
+
+/* Digg */
+.effect-12 .digg span:before,
+.effect-12 .digg span:after {
+	content: "\f1a6";
+}
+.effect-12 .digg span:after {
+	box-shadow: inset 0 5px #4986C7;
+	background-color: #79BAFF;
+}
+
+/* Youtube */
+.effect-12 .youtube span:before,
+.effect-12 .youtube span:after {
+	content: "\f167";
+}
+.effect-12 .youtube span:after {
+	box-shadow: inset 0 5px #881600;
+	background-color: #CF2200;
+}
+
+/* Vimeo */
+.effect-12 .vimeo span:before,
+.effect-12 .vimeo span:after {
+	content: "\f27d";
+}
+.effect-12 .vimeo span:after {
+	box-shadow: inset 0 5px #427CAD;
+	background-color: #85C6FD;
+}
+
+/* Delicious */
+.effect-12 .delicious span:before,
+.effect-12 .delicious span:after {
+	content: "\f1a5";
+}
+.effect-12 .delicious span:after {
+	box-shadow: inset 0 5px #2E70AB;
+	background-color: #3F92DC;
+}
+
+/* Linkedin */
+.effect-12 .linkedin span:before,
+.effect-12 .linkedin span:after {
+	content: "\f0e1";
+}
+.effect-12 .linkedin span:after {
+	box-shadow: inset 0 5px #2D637B;
+	background-color: #4698BD;
+}
+
+/* EFFECT */
+.effect-12 a:hover span:after{
+	-webkit-transform: rotateX(0);
+	        transform: rotateX(0);
+}

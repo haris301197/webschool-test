@@ -1,0 +1,169 @@
+/* Icon */
+.effect-11 .fb:before,
+.effect-11 .fb:after {
+	content: "\f09a";
+}
+.effect-11 .fb:after {
+	background-color: #3b5998;
+}
+.effect-11 .fb{
+	box-shadow: inset 0 -5px #3b5998;
+}
+
+/* Github */
+.effect-11 .dribbble:before,
+.effect-11 .dribbble:after {
+	content: "\f17d";
+}
+.effect-11 .dribbble:after {
+	background-color: #F26798;
+}
+.effect-11 .dribbble{
+	box-shadow: inset 0 -5px #F26798;
+}
+
+/* SU */
+.effect-11 .su:before,
+.effect-11 .su:after {
+	content: "\f1a4";
+}
+.effect-11 .su:after {
+	background-color: #5FBB4C;
+}
+.effect-11 .su{
+	box-shadow: inset 0 -5px #5FBB4C;
+}
+
+/* Gplus */
+.effect-11 .gplus:before,
+.effect-11 .gplus:after {
+	content: "\f0d5";
+}
+.effect-11 .gplus:after {
+	background-color: #d34836;
+}
+.effect-11 .gplus{
+	box-shadow: inset 0 -5px #d34836;
+}
+
+/* Instagram */
+.effect-11 .instagram:before,
+.effect-11 .instagram:after {
+	content: "\f16d";
+}
+.effect-11 .instagram:after {
+	background-color: #DCAD65;
+}
+.effect-11 .instagram{
+	box-shadow: inset 0 -5px #DCAD65;
+}
+
+/* Twitter */
+.effect-11 .twitter:before,
+.effect-11 .twitter:after {
+	content: "\f099";
+}
+.effect-11 .twitter:after {
+	background-color: #4099ff;
+}
+.effect-11 .twitter{
+	box-shadow: inset 0 -5px #4099ff;
+}
+
+/* RSS */
+.effect-11 .rss:before,
+.effect-11 .rss:after {
+	content: "\f09e";
+}
+.effect-11 .rss:after {
+	background-color: #FF9F5B;
+}
+.effect-11 .rss{
+	box-shadow: inset 0 -5px #FF9F5B;
+}
+
+
+/* Digg */
+.effect-11 .digg:before,
+.effect-11 .digg:after {
+	content: "\f1a6";
+}
+.effect-11 .digg:after {
+	background-color: #79BAFF;
+}
+.effect-11 .digg{
+	box-shadow: inset 0 -5px #79BAFF;
+}
+
+/* Youtube */
+.effect-11 .youtube:before,
+.effect-11 .youtube:after {
+	content: "\f167";
+}
+.effect-11 .youtube:after {
+	background-color: #CF2200;
+}
+.effect-11 .youtube{
+	box-shadow: inset 0 -5px #CF2200;
+}
+
+/* Vimeo */
+.effect-11 .vimeo:before,
+.effect-11 .vimeo:after {
+	content: "\f27d";
+}
+.effect-11 .vimeo:after {
+	background-color: #85C6FD;
+}
+.effect-11 .vimeo{
+	box-shadow: inset 0 -5px #85C6FD;
+}
+
+/* Delicious */
+.effect-11 .delicious:before,
+.effect-11 .delicious:after {
+	content: "\f1a5";
+}
+.effect-11 .delicious:after {
+	background-color: #3F92DC;
+}
+.effect-11 .delicious{
+	box-shadow: inset 0 -5px #3F92DC;
+}
+
+/* Linkedin */
+.effect-11 .linkedin:before,
+.effect-11 .linkedin:after {
+	content: "\f0e1";
+}
+.effect-11 .linkedin:after {
+	background-color: #4698BD;
+}
+.effect-11 .linkedin{
+	box-shadow: inset 0 -5px #4698BD;
+}
+
+/* EFFECT */
+.effect-11 a{
+    line-height: 64px !important;
+	background-color: #EAEAEA;
+}
+
+.effect-11 a:after {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	height: 5px;
+	color: #FFFFFF;
+	font-size: 0;
+}
+.effect-11 a:hover:before{
+	font-size: 0;
+	opacity: 0;
+}
+.effect-11 a:hover:after{
+	top: 0;
+	height: 100%;
+	font-size: inherit;
+}

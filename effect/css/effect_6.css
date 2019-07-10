@@ -1,0 +1,147 @@
+/* Icon */
+.effect-6 .fb{
+	background-color: #6280BF;
+}
+.effect-6 .fb:hover {
+	background-color: #3b5998;
+}
+.effect-6 .fb:before {
+	content: "\f09a";
+}
+
+/* Dribble */
+.effect-6 .dribbble{
+	background-color: #E495B0;
+}
+.effect-6 .dribbble:hover{
+	background-color: #F26798;
+}
+.effect-6 .dribbble:before {
+	content: "\f17d";
+}
+
+/* SU */
+.effect-6 .su {
+	background-color: #96C38D;
+}
+.effect-6 .su:hover {
+	background-color: #5FBB4C;
+}
+.effect-6 .su:before {
+	content: "\f1a4";
+}
+
+/* Gplus */
+.effect-6 .gplus {
+	background-color: #D2857B;
+}
+.effect-6 .gplus:hover {
+	background-color: #d34836;
+}
+.effect-6 .gplus:before {
+	content: "\f0d5";
+}
+
+/* Instagram */
+.effect-6 .instagram {
+	background-color: #D4B585;
+}
+.effect-6 .instagram:hover {
+	background-color: #DCAD65;
+}
+.effect-6 .instagram:before {
+	content: "\f16d";
+}
+
+/* Twitter */
+.effect-6 .twitter {
+	background-color: #5FA9FF;
+}
+.effect-6 .twitter:hover {
+	background-color: #2289FF;
+}
+.effect-6 .twitter:before {
+	content: "\f099";
+}
+
+/* RSS */
+.effect-6 .rss {
+	background-color: #F9AA72;
+}
+.effect-6 .rss:hover {
+	background-color: #FF8E3E;
+}
+.effect-6 .rss:before {
+	content: "\f09e";
+}
+
+/* Digg */
+.effect-6 .digg {
+	background-color: #79BAFF;
+}
+.effect-6 .digg:hover {
+	background-color: #1586FF;
+}
+.effect-6 .digg:before {
+	content: "\f1a6";
+}
+
+/* Youtube */
+.effect-6 .youtube {
+	background-color: #EF806A;
+}
+.effect-6 .youtube:hover {
+	background-color: #CF2200;
+}
+.effect-6 .youtube:before {
+	content: "\f167";
+}
+
+/* Vimeo */
+.effect-6 .vimeo {
+	background-color: #85C6FD;
+}
+.effect-6 .vimeo:hover {
+	background-color: #49ABFF;
+}
+.effect-6 .vimeo:before {
+	content: "\f27d";
+}
+
+/* Delicious */
+.effect-6 .delicious {
+	background-color: #7AAAD4;
+}
+.effect-6 .delicious:hover {
+	background-color: #3F92DC;
+}
+.effect-6 .delicious:before {
+	content: "\f1a5";
+}
+
+/* Linkedin */
+.effect-6 .linkedin {
+	background-color: #64ACCE;
+}
+.effect-6 .linkedin:hover {
+	background-color: #349CCC;
+}
+.effect-6 .linkedin:before {
+	content: "\f0e1";
+}
+
+/* EFFECT */
+.effect-6 a:before {
+	color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.effect-6 a:hover:before {
+	-webkit-transform: rotate(360deg);
+	    -ms-transform: rotate(360deg);
+	        transform: rotate(360deg);
+}

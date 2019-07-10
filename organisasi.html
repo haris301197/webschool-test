@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Web Sekolah</title>
+
+      <!-- new -->
+
+      <link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css"></script>
+      <script type="text/javascript" src="js/primitives.min.js"></script>
+      <link href="css/primitives.latest.css" media="screen" rel="stylesheet" type="text/css" />
+      <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  
+      <!-- end -->
+
+      <script type='text/javascript'>//<![CDATA[ 
+
+        $(window).load(function () {
+  
+            var options = new primitives.orgdiagram.Config();
+  
+  
+  
+            var items = [
+  
+                new primitives.orgdiagram.ItemConfig({
+  
+                    id: 0,
+  
+                    parent: null,
+  
+                    title: "Kepala Sekolah",
+  
+                    description: "Nama Kepala Sekolah",
+  
+                    image: "images/photos/a.png"
+  
+                }),
+  
+                new primitives.orgdiagram.ItemConfig({
+  
+                    id: 1,
+  
+                    parent: 0,
+  
+                    title: "Kesiswaan",
+  
+                    description: "Nama Kesiswaan",
+  
+                    image: "images/photos/b.png"
+  
+                }),
+  
+                new primitives.orgdiagram.ItemConfig({
+  
+                    id: 2,
+  
+                    parent: 0,
+  
+                    title: "Humas",
+  
+                    description: "Nama Humas",
+  
+                    image: "images/photos/b.png"
+  
+                }),
+  
+                new primitives.orgdiagram.ItemConfig({
+  
+                    id: 3,
+  
+                    parent: 1,
+  
+                    title: "Pembina Osis",
+  
+                    description: "Nama Pembina Osis",
+  
+                    image: "images/photos/c.png"
+  
+                }),
+  
+                new primitives.orgdiagram.ItemConfig({
+  
+                    id: 4,
+  
+                    parent: 1,
+  
+                    title: "Pembina Ekstra",
+  
+                    description: "Pembina Ekstra",
+  
+                    image: "images/photos/c.png"
+  
+                }),
+  
+                new primitives.orgdiagram.ItemConfig({
+  
+                    id: 5,
+  
+                    parent: 2,
+  
+                    title: "UKS",
+  
+                    description: "Nama UKS",
+  
+                    image: "images/photos/c.png"
+  
+                }),
+  
+                new primitives.orgdiagram.ItemConfig({
+  
+                    id: 6,
+  
+                    parent: 2,
+  
+                    title: "Koperasi",
+  
+                    description: "Nama Koperasi",
+  
+                    image: "images/photos/c.png"
+  
+                })
+  
+            ];
+  
+  
+  
+            options.items = items;
+  
+            options.cursorItem = 0;
+  
+            options.hasSelectorCheckbox = primitives.common.Enabled.True;
+  
+  
+  
+            jQuery("#strukturorganisasi").orgDiagram(options);
+  
+        });//]]>  
+  
+  
+  
+  </script>
+
+
+  </head>
+<body>
+
+    
+
+
+<div id="strukturorganisasi" style="width: 640px; height: 480px; border-style: dotted; border-width: 1px;">
+</div>
+
+
+
+    
+</body>
+</html>
+    
